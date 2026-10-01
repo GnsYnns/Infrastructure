@@ -1,0 +1,48 @@
+------------- PROJET HING3 -------------
+société Sec-Digi spécialisée en cybersécurité
+Créer une architecture technique pour une PME de 60 personnes.
+3 sites géographiques:
+
+- Nantes - siège
+	- 30 users
+		- 10 pentesteurs
+		- 10 auditeurs
+		- 1 DG
+		- 5 commerciaux
+		- 4 alternants
+- Rennes
+	- 15 users
+		- 10 auditeurs
+		- 5 pentesteurs
+- Paris
+	- 15 users
+		- 5 commerciaux
+		- 5 auditeurs
+		- 5 pentesteurs
+		
+L'IT interne est gérée par les auditeurs/pentesteurs de nantes lorsqu'ils ont le temps.
+
+besoins techniques:
+
+monter des architectures de test pour simuler les infra clientes.
+Héberger les données (rapports d'audit, de pentest, contrats ...)
+Héberger les données de R&D
+
+Matériel disponibles:
+- 2 serveurs physiques HP DL380 G6 - 2 processeurs - 128 GO de ram chacun
+- Réseau HPE full 1Gbps (procurve 1810)
+- 1 acces internet free grand public 400Mbps
+
+sur Rennes et Paris:
+- 1 Nas synology DS918+ avec 2 disques de 4TO en grappe raid 1
+- Réseau HPE full 1Gbps (procurve 1810)
+- 1 acces internet free grand public 400Mbps
+
+
+Objectif de la maquette:
+
+- concevoir une infrastructure fluide, redondante, performante pour que chaque utilisateur puisse travailler de n'importe quel site.
+- En tant que spécialiste cyber, la faille ou l'attaque externe serait mal venue
+
+1) proposer une architecture
+2) mettre en place la maquette
